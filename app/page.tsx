@@ -1,6 +1,7 @@
 import type { FC } from 'react'
 import React from 'react'
 import { GetServerSideProps } from 'next'
+import { Token } from '@/config'
 
 const SECRET_TOKEN = `${process.env.token}`; // 你可以把这个值放在环境变量中
 

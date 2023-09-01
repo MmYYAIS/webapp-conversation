@@ -2,6 +2,7 @@ import type { AppInfo } from '@/types/app'
 export const APP_ID = `${process.env.APP_ID}`
 export const API_KEY = `${process.env.API_KEY}`
 export const API_URL = `${process.env.API_URL}`
+export const Token = `${process.env.token}`
 export const APP_INFO: AppInfo = {
   title: 'Chat APP',
   description: '',
